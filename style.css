@@ -5,7 +5,7 @@ html, body {
     width: 100%;
     position: absolute;
     background-color: black;
-    background-image: url('http://imageshack.com/a/img905/2204/RaTH57.jpg');
+    background-image: url('background.jpg');
     background-repeat:repeat-x;
     background-position: top;
     z-index: -2;
