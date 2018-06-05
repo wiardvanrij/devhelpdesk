@@ -1,0 +1,33 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Developers helpdesk</title>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="quote.js"></script>
+</head>
+
+<body onload="startTime(); startDate()">
+
+<div class="container">
+    <div id="date"></div>
+    <div id="display"></div>
+    <div id="content">
+        <p id="quote"><span id="quoteText"></span><br/><span id="name"></span></p>
+    </div>
+</div>
+<div id="b-nav">
+    <ul>
+        <button id="gen" onclick="window.location.reload()">New Quote</button>
+    </ul>
+</div>
+</body>
+</html>
